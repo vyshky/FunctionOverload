@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+     
 const int SIZE = 10;
 const int ROWS = 3;
 const int COLS = 3;

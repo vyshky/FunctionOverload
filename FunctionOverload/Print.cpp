@@ -69,7 +69,7 @@ void Sort(int arr[ROWS][COLS], const int n, const int m)
 					arr[i][j2] = buffer;
 				}
 			}
-		}
+		}   
 	}
 }
 
