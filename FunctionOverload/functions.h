@@ -156,8 +156,7 @@ void minValueIn(T arr[ROWS][COLS], const int n, const int m)
 	cout << bufer << endl;
 	setlocale(LC_ALL, "rus");
 }
-/// <MinValueIn>
-
+/// <MinValueIn> 
 
 /// <Ќайти максимальное значение в массиве> 
 template<class T>
