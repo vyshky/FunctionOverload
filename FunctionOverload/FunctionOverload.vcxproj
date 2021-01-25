@@ -139,8 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FillRand.cpp" />
-    <ClCompile Include="Print.cpp" />
     <ClCompile Include="FunctionOverload.cpp" />
   </ItemGroup>
   <ItemGroup>
