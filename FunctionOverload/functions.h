@@ -153,7 +153,7 @@ void minValueIn(T arr[ROWS][COLS], const int n, const int m)
 	}
 	cout << typeid(T).name() << " minValueIn = ";
 	setlocale(LC_ALL, "C");
-	cout << (T)bufer << endl;
+	cout << bufer << endl;
 	setlocale(LC_ALL, "rus");
 }
 /// <MinValueIn>

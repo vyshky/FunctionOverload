@@ -19,7 +19,6 @@ void main()
 
 #endif //SORT
 
-
 #ifdef SUM
 
 	cout << "Сумма 2 матриц" << endl << "---------------------" << endl;
@@ -38,7 +37,6 @@ void main()
 	system("pause");
 	system("CLS");
 #endif // SUM
-
 
 #ifdef AVG
 	cout << "Среднее арифметическое однострочного массива" << endl << "---------------------" << endl;
@@ -66,8 +64,6 @@ void main()
 	system("CLS");
 #endif // AVG
 
-
-
 #ifdef ARR_MIN_MAX
 	cout << "Минимальное значение в однострочном массиве" << endl << "----------------------------------" << endl;
 	char arrMin[SIZE];
@@ -86,7 +82,6 @@ void main()
 	system("pause");
 	system("CLS");
 #endif // ARR_MIN_MAX
-
 
 #ifdef MATRIX_MIN_MAX
 	cout << "Минимальное значение в двумерном массиве" << endl << "-----------------------------------" << endl;
