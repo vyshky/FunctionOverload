@@ -1,10 +1,10 @@
-#include "functions.h"
+ï»¿#include "functions.h"
 void main()
 {
 	setlocale(LC_ALL, "rus");
 #ifdef SORT
 
-	cout << "ÑÎÐÒÈÐÎÂÊÀ" << endl << "--------------------" << endl;
+	cout << "Ð¡ÐžÐ Ð¢Ð˜Ð ÐžÐ’ÐšÐ" << endl << "--------------------" << endl;
 	char arrA[SIZE], arrA2[ROWS][COLS];
 	FillRand<char>(arrA, SIZE);
 	FillRand<char>(arrA2, ROWS, COLS);
@@ -21,7 +21,7 @@ void main()
 
 #ifdef SUM
 
-	cout << "Ñóììà 2 ìàòðèö" << endl << "---------------------" << endl;
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° 2 Ð¼Ð°Ñ‚Ñ€Ð¸Ñ†" << endl << "---------------------" << endl;
 	int arr1[ROWS][COLS], arr2[ROWS][COLS], arr3[ROWS][COLS];
 	FillRand<int>(arr1, ROWS, COLS);
 	FillRand<int>(arr2, ROWS, COLS);
@@ -39,7 +39,7 @@ void main()
 #endif // SUM
 
 #ifdef AVG
-	cout << "Ñðåäíåå àðèôìåòè÷åñêîå îäíîñòðî÷íîãî ìàññèâà" << endl << "---------------------" << endl;
+	cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ Ð¾Ð´Ð½Ð¾ÑÑ‚Ñ€Ð¾Ñ‡Ð½Ð¾Ð³Ð¾ Ð¼Ð°ÑÑÐ¸Ð²Ð°" << endl << "---------------------" << endl;
 
 	int arr112[SIZE];
 	FillRand<int>(arr112, SIZE);
@@ -51,7 +51,7 @@ void main()
 	system("pause");
 	system("CLS");
 
-	cout << "Ñðåäíåå àðèôìåòè÷åñêîå äâóìåðíîãî ìàññèâà" << endl << "---------------------" << endl;
+	cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ Ð´Ð²ÑƒÐ¼ÐµÑ€Ð½Ð¾Ð³Ð¾ Ð¼Ð°ÑÑÐ¸Ð²Ð°" << endl << "---------------------" << endl;
 
 	double arr1111[ROWS][COLS];
 	FillRand<double>(arr1111, ROWS, COLS);
@@ -65,14 +65,14 @@ void main()
 #endif // AVG
 
 #ifdef ARR_MIN_MAX
-	cout << "Ìèíèìàëüíîå çíà÷åíèå â îäíîñòðî÷íîì ìàññèâå" << endl << "----------------------------------" << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð² Ð¾Ð´Ð½Ð¾ÑÑ‚Ñ€Ð¾Ñ‡Ð½Ð¾Ð¼ Ð¼Ð°ÑÑÐ¸Ð²Ðµ" << endl << "----------------------------------" << endl;
 	char arrMin[SIZE];
 	FillRand<char>(arrMin, SIZE);
 	Print<char>(arrMin, SIZE);
 	minValueIn<char>(arrMin, SIZE);
 	Mnogo_ravno;
 
-	cout << "Ìàêñèìàëüíîå çíà÷åíèå â îäíîñòðî÷íîì ìàññèâå" << endl << "----------------------------------" << endl;
+	cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð² Ð¾Ð´Ð½Ð¾ÑÑ‚Ñ€Ð¾Ñ‡Ð½Ð¾Ð¼ Ð¼Ð°ÑÑÐ¸Ð²Ðµ" << endl << "----------------------------------" << endl;
 	char arrMax[SIZE];
 	FillRand<char>(arrMax, SIZE);
 	Print<char>(arrMax, SIZE);
@@ -84,14 +84,14 @@ void main()
 #endif // ARR_MIN_MAX
 
 #ifdef MATRIX_MIN_MAX
-	cout << "Ìèíèìàëüíîå çíà÷åíèå â äâóìåðíîì ìàññèâå" << endl << "-----------------------------------" << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð² Ð´Ð²ÑƒÐ¼ÐµÑ€Ð½Ð¾Ð¼ Ð¼Ð°ÑÑÐ¸Ð²Ðµ" << endl << "-----------------------------------" << endl;
 	char arrMinMatrix[ROWS][COLS];
 	FillRand<char>(arrMinMatrix, ROWS, COLS);
 	Print<char>(arrMinMatrix, ROWS, COLS);
 	minValueIn<char>(arrMinMatrix, ROWS, COLS);
 	Mnogo_ravno;
 
-	cout << "Ìàêñèìàëüíîå çíà÷åíèå â äâóìåðíîì ìàññèâå" << endl << "-----------------------------------" << endl;
+	cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð² Ð´Ð²ÑƒÐ¼ÐµÑ€Ð½Ð¾Ð¼ Ð¼Ð°ÑÑÐ¸Ð²Ðµ" << endl << "-----------------------------------" << endl;
 
 	char arrMaxMatrix[ROWS][COLS];
 	FillRand<char>(arrMaxMatrix, ROWS, COLS);

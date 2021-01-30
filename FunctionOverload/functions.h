@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 using namespace std;
 
 const int SIZE = 10;
@@ -12,7 +12,7 @@ const int COLS = 3;
 //#define ARR_MIN_MAX
 //#define MATRIX_MIN_MAX
 
-/// <Случайные числа записываем в массив>
+/// <РЎР»СѓС‡Р°Р№РЅС‹Рµ С‡РёСЃР»Р° Р·Р°РїРёСЃС‹РІР°РµРј РІ РјР°СЃСЃРёРІ>
 template<class T>
 void FillRand(T arr[], const int n)
 {
@@ -36,7 +36,7 @@ void FillRand(T arr[ROWS][COLS], const int n, const int m)
 }
 /// </FillRand>
 
-/// <Сортировка по возрастанию>
+/// <РЎРѕСЂС‚РёСЂРѕРІРєР° РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ>
 template<class T>
 void Sort(T arr[], const int n)
 {
@@ -77,7 +77,7 @@ void Sort(T arr[ROWS][COLS], const int n, const int m)
 }
 /// </Sort>
 
-/// <Сумма 2 матриц> 
+/// <РЎСѓРјРјР° 2 РјР°С‚СЂРёС†> 
 template<class T>
 void Sum(T arr1[ROWS][COLS], T arr2[ROWS][COLS], T arr3[ROWS][COLS], int const n, int const m)
 {
@@ -91,7 +91,7 @@ void Sum(T arr1[ROWS][COLS], T arr2[ROWS][COLS], T arr3[ROWS][COLS], int const n
 }
 /// <Sum>
 
-/// <Среднее арифметическое> 
+/// <РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ> 
 template<class T>
 void Avg(T arr[], const int n)
 {
@@ -120,7 +120,7 @@ void Avg(T arr[ROWS][COLS], const int n, const int m)
 }
 /// <Avg>
 
-/// <Найти минимальное значение в массиве> 
+/// <РќР°Р№С‚Рё РјРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РІ РјР°СЃСЃРёРІРµ> 
 template<class T>
 void minValueIn(T arr[], const int n)
 {
@@ -158,7 +158,7 @@ void minValueIn(T arr[ROWS][COLS], const int n, const int m)
 }
 /// <MinValueIn> 
 
-/// <Найти максимальное значение в массиве> 
+/// <РќР°Р№С‚Рё РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РІ РјР°СЃСЃРёРІРµ> 
 template<class T>
 void MaxValueIn(T arr[], const int n)
 {
@@ -198,12 +198,12 @@ void MaxValueIn(T arr[ROWS][COLS], const int n, const int m)
 }
 /// <MaxValueIn>
 
-/// <Принт> показать в консоли
+/// <РџСЂРёРЅС‚> РїРѕРєР°Р·Р°С‚СЊ РІ РєРѕРЅСЃРѕР»Рё
 template<class T>
 void Print(T arr[], const int n)
 {
 
-	cout << typeid(T).name() << "\tМассив" << endl;
+	cout << typeid(T).name() << "\tРњР°СЃСЃРёРІ" << endl;
 	setlocale(LC_ALL, "C");
 	for (int i = 0; i < n; i++)
 	{
@@ -216,7 +216,7 @@ template<class T>
 void Print(T arr[ROWS][COLS], const int n, const int m)
 {
 
-	cout << typeid(T).name() << "\tМатрица" << endl;
+	cout << typeid(T).name() << "\tРњР°С‚СЂРёС†Р°" << endl;
 	setlocale(LC_ALL, "C");
 	for (int i = 0; i < n; i++)
 	{
