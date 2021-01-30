@@ -1,4 +1,4 @@
-#include "functions.h"
+﻿#include "functions.h"
 
 /////////////////////////////////////////////// <FillRand>
 void FillRand(int arr[], const int n)

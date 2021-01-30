@@ -1,4 +1,4 @@
-#include "functions.h"
+ï»¿#include "functions.h"
 
 ////////////////////////////////////////////// <Print>
 template<typename T>void Print(T arr[], const int n)
@@ -12,7 +12,7 @@ template<typename T>void Print(T arr[], const int n)
 
 template<typename T>void Print(T arr[ROWS][COLS], const int n, const int m)
 {
-	cout << "CHAR\tÌàòðèöà" << endl;
+	cout << "CHAR\tÐœÐ°Ñ‚Ñ€Ð¸Ñ†Ð°" << endl;
 	setlocale(LC_ALL, "C");
 	for (int i = 0; i < n; i++)
 	{

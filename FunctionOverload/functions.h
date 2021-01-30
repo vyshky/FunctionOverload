@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include <iostream>
 
 using namespace std;
@@ -9,11 +9,11 @@ const int COLS = 3;
 
 #define Mnogo_ravno cout<<endl<<"==============================================================================================="<<endl<<endl<<endl;
 
-/// <Печать> показать в консоли
+/// <РџРµС‡Р°С‚СЊ> РїРѕРєР°Р·Р°С‚СЊ РІ РєРѕРЅСЃРѕР»Рё
 template<typename T>void Print(T arr[], const int n);
 template<typename T>void Print(T arr[ROWS][COLS], const int n, const int m);
 /// <Print>
-/// <Случайные числа записываем в массив>
+/// <РЎР»СѓС‡Р°Р№РЅС‹Рµ С‡РёСЃР»Р° Р·Р°РїРёСЃС‹РІР°РµРј РІ РјР°СЃСЃРёРІ>
 void FillRand(int arr[], const int n);
 void FillRand(double arr[], const int n);
 void FillRand(char arr[], const int n);
@@ -24,7 +24,7 @@ void FillRand(char arr[ROWS][COLS], const int n, const int m);
 
 /// </FillRand>
 
-/// <Сортировка по возрастанию>
+/// <РЎРѕСЂС‚РёСЂРѕРІРєР° РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ>
 void Sort(int arr[], const int n);
 void Sort(double arr[], const int n);
 void Sort(char arr[], const int n);
@@ -34,13 +34,13 @@ void Sort(double arr[ROWS][COLS], const int n, const int m);
 void Sort(char arr[ROWS][COLS], const int n, const int m);
 /// </Sort>
 
-/// <Сумма 2 матриц> 
+/// <РЎСѓРјРјР° 2 РјР°С‚СЂРёС†> 
 void Sum(int arr1[ROWS][COLS], int arr2[ROWS][COLS], int arr3[ROWS][COLS], int const n, int const m);
 void Sum(double arr1[ROWS][COLS], double arr2[ROWS][COLS], double arr3[ROWS][COLS], int const n, int const m);
 void Sum(char arr1[ROWS][COLS], char arr2[ROWS][COLS], char arr3[ROWS][COLS], int const n, int const m);
 /// <Sum>
 
-/// <Среднее арифметическое> 
+/// <РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ> 
 void Avg(int arr[], const int n);
 void Avg(double arr[], const int n);
 void Avg(char arr[], const int n);
@@ -50,7 +50,7 @@ void Avg(double arr[ROWS][COLS], const int n, const int m);
 void Avg(char arr[ROWS][COLS], const int n, const int m);
 /// <Avg>
 
-/// <Найти минимальное значение в массиве> 
+/// <РќР°Р№С‚Рё РјРёРЅРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РІ РјР°СЃСЃРёРІРµ> 
 void minValueIn(int arr[], const int n);
 void minValueIn(double arr[], const int n);
 void minValueIn(char arr[], const int n);
@@ -61,7 +61,7 @@ void minValueIn(char arr[ROWS][COLS], const int n, const int m);
 /// <MinValueIn>
 
 
-/// <Найти максимальное значение в массиве> 
+/// <РќР°Р№С‚Рё РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РІ РјР°СЃСЃРёРІРµ> 
 void MaxValueIn(int arr[], const int n);
 void MaxValueIn(double arr[], const int n);
 void MaxValueIn(char arr[], const int n);
