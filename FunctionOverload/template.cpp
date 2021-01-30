@@ -12,7 +12,7 @@ template<typename T>void Print(T arr[], const int n)
 
 template<typename T>void Print(T arr[ROWS][COLS], const int n, const int m)
 {
-	cout << "CHAR\tМатрица" << endl;
+	cout << "tМатрица" << endl;
 	setlocale(LC_ALL, "C");
 	for (int i = 0; i < n; i++)
 	{
