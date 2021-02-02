@@ -25,9 +25,10 @@ void FillRand(char arr[ROWS][COLS], const int n, const int m);
 /// </FillRand>
 
 /// <Сортировка по возрастанию>
+void Sort(char arr[], const int n);
+void Sort(char arr[ROWS][COLS], const int n, const int m);
+
 template<typename T>void Sort(T arr[], const int n);
-
-
 template<typename T>void Sort(T arr[ROWS][COLS], const int n, const int m);
 
 /// </Sort>
